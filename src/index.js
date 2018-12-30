@@ -1,12 +1,50 @@
+//Import the react and reactDom libraries
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import HomePage from './HomePage';
+import MapContainer from './MapContainer';
+import { Router, Route, IndexRoute, BrowserRouter,Switch, HashRouter } from "react-router-dom";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import Header from './Header';
+import mainRouter from './mainRouter';
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
+
+
+
+
+//Create a react function based component
+
+
+
+const App = () => (
+
+
+
+
+ <div className='BodyWrapperMain'>
+
+   <Header />
+   <mainRouter />
+   <HomePage />
+
+
+
+</div>
+
+)
+
+ReactDOM.render((
+
+  <HashRouter >
+
+  <React.Fragment>
+     <App />
+
+
+  </React.Fragment>
+
+  </HashRouter>
+
+), document.getElementById('root'));
