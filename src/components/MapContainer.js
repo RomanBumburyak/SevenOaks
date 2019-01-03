@@ -3,8 +3,9 @@ import {Map, GoogleApiWrapper } from 'google-maps-react';
 
 const MapStyles = {
   width:'600px',
-  height:'400px',
-  border: '2px solid red',
+  height:'350px',
+  border: '7px solid rgba(0.25, 30, 10)',
+  marginTop: '30px;'
 
 
 };
