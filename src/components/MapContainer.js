@@ -5,8 +5,8 @@ const MapStyles = {
   width:'600px',
   height:'350px',
   border: '7px solid rgba(0.25, 30, 10)',
-  marginTop: '30px;'
-
+  marginTop: '30px;',
+  
 
 };
 

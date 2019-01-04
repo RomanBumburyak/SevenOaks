@@ -4,13 +4,13 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div className="main-contact-div">
-      <div className="main-contact-div-two">
+        <div className="main-contact-div-two">
 
-      </div>
+        </div>
 
-      <div className="parent-contact-container">
+        <div className="parent-contact-container">
 
-      </div>
+        </div>
 
 
     </div>

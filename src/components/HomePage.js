@@ -5,7 +5,6 @@ import Particles from 'react-particles-js';
 
 
 
-
 const particleOpt = {
 
     particles: {
@@ -54,6 +53,9 @@ class HomePage extends React.Component{
 
 
 
+
+
+
 <h1 className='main-page-text' > SevenOaks</h1>
 
 <Particles className='particle-style'
@@ -74,7 +76,15 @@ SevenOaks has 20 years of experience in helping our clients succeed.</p>
 
 
      <div className='home-one'>
+       <div className='home-one-div'>
 
+
+      </div>
+      <div className='home-one-div-two'>
+        <h2>Mobile Development</h2>
+
+
+     </div>
 
     </div>
 
@@ -84,13 +94,8 @@ SevenOaks has 20 years of experience in helping our clients succeed.</p>
 
         </div>
 
-        <div className='Anchor-wat-two'>
 
-        </div>
 
-        <div className='Anchor-wat-three'>
-
-        </div>
 
 
     </div>

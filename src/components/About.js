@@ -9,18 +9,9 @@ const About = () => {
         <div className="main-about-container">
             <div className="main-about-block">
               <div className="main-about-block-one">
-
+                <h2 className="block-title-tags">We create websites that target your customer-base.</h2>
               </div>
-              <div className="main-about-block-two">
-
-              </div>
-              <div className="main-about-block-three">
-
-              </div>
-              <div className="main-about-block-four">
-
-              </div>
-
+              
             </div>
         </div>
 
