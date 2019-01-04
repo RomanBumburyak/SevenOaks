@@ -5,6 +5,7 @@ import HomePage from "./components/HomePage";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
 class App extends React.Component {
   render() {
@@ -18,6 +19,7 @@ class App extends React.Component {
             <Route path="/contact" component={Contact} />
 
           </Switch>
+          <Footer />
         </div>
       </BrowserRouter>
     );

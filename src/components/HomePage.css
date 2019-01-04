@@ -20,8 +20,6 @@
 
   background-image: linear-gradient(to right, black, silver);
 
-
-
     background-size: contain;
     background-position: 50% 50%;;
 
@@ -30,11 +28,10 @@
 .main-page-text{
   display: flex;
   justify-content: center;
-  color:white;
+  color:black;
   background-image: linear-gradient(to right, black, silver);
   font-size: 7.5rem;
   height: 110px;
-
   margin-top: -20px;
   font-family: 'Source Sans Pro', sans-serif;
 
