@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "production": "seven-oaks-firebase",
+    "default": "seven-oaks-firebase"
+  }
+}

@@ -8,6 +8,7 @@ import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 
 
+
 class App extends React.Component {
   render() {
     return (
@@ -23,6 +24,7 @@ class App extends React.Component {
           </Switch>
 
           <Footer />
+      
 
         </div>
       </BrowserRouter>

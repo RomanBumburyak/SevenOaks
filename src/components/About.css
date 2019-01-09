@@ -19,9 +19,7 @@
 .main-about-container{
   height: 500px;
   width: 100%;
-  background-image: url("./img/Minimalist-Wallpaper-cube.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #fafafa;
 
 
 
