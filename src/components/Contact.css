@@ -1,7 +1,7 @@
 .main-contact-div{
-  height: 1500px;
+  height: 900px;
   width: 100%;
-  background-color: #333;
+  background-color: #fafafa;
 
 }
 
@@ -9,17 +9,14 @@
 
   height: 500px;
   width: 100%;
-  background-image: url("./img/illustrationCode.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+
 
 }
 
 .parent-contact-container{
-  display: flex;
+  display: block;
   justify-content: center;
   background-color: #fafafa;
-  margin-top: 50px;
-  height: 400px;
-  width: 100%;
+
+
 }

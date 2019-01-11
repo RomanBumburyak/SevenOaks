@@ -9,10 +9,10 @@ const particleOpt = {
 
     particles: {
       number: {
-        value: 240,
+        value: 160,
         density:{
           enable: true,
-          value_area:600,
+          value_area:500,
         }
       }
     }
@@ -24,10 +24,10 @@ const particleOptTwo = {
 
     particles: {
       number: {
-        value: 290,
+        value: 150,
         density:{
           enable: true,
-          value_area:600,
+          value_area:500,
         }
       }
     }

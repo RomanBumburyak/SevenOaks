@@ -1,12 +1,23 @@
-.top-header{
-  height: 30px;
+.navigation-parent{
+  height: 45px;
   border: 4px solid black;
   background-color: #333;
+
+}
+
+
+.header-anchors{
+
   display: flex;
   justify-content: space-around;
-  margin-top: 10px;
-  margin-bottom: 15px;
-  font-size: 1.5rem;
 
+}
 
+.head-anchor-tabs{
+ border: 3px solid grey;
+ width: 80px;
+ display: flex;
+ justify-content: center;
+ margin-top: 10px;
+ font-size: 2.0rem;
 }

@@ -1,6 +1,6 @@
 .Anchor-tab-nav{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   font-style: italic;
   font-size: 27px;
   margin-top: 20px;
@@ -71,9 +71,8 @@
   margin-top: 50px;
 }
 .home-one{
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+
+  display: block;
   resize: both;
   height: 550px;
 

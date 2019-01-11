@@ -6,13 +6,12 @@ import "./Navigation.css";
 
 const Navigation = () => {
   return(
-  <div className='top-header'>
-
-          <NavLink to="/"activeStyle={{fontWeight: "bold",color: "black"}}>7</NavLink>
-
-          <NavLink to="/About"activeStyle={{fontWeight: "bold",color: "black"}}>About</NavLink>
-          <NavLink to="/Contact"activeStyle={{fontWeight: "bold",color: "black"}}>Contact</NavLink>
-        
+  <div className="navigation-parent">
+      <div className='header-anchors'>
+        <div className="head-anchor-tabs"> <NavLink to="/">7</NavLink> </div>
+        <div className="head-anchor-tabs"><NavLink to="/About">About</NavLink> </div>
+        <div className="head-anchor-tabs"><NavLink to="/Contact">Contact</NavLink> </div>
+      </div>
     </div>
   );
 };
