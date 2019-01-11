@@ -1,22 +1,22 @@
 .main-contact-div{
-  height: 900px;
-  width: 100%;
+  min-height: 100vh;
+  min-width: 100vw;
   background-color: #fafafa;
 
 }
 
 .main-contact-div-two{
 
-  height: 500px;
-  width: 100%;
-
-
+  min-height: 500px;
+  min-width: 100vw;
+  min-height: 100vh;
+    border: 2px solid red;
 }
 
 .parent-contact-container{
   display: block;
   justify-content: center;
-  background-color: #fafafa;
+
 
 
 }

@@ -2,10 +2,10 @@ import React from 'react';
 import {Map, GoogleApiWrapper } from 'google-maps-react';
 
 const MapStyles = {
-  width:'600px',
-  height:'350px',
+  maxWidth:'500px',
+  maxHeight:'400px',
   border: '7px solid silver',
-  marginTop: '30px;',
+  
 
 
 };

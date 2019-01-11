@@ -3,6 +3,8 @@ import "./Contact.css";
 import ContactForm from './ContactForm';
 import Particles from 'react-particles-js';
 import MapContainer from './MapContainer';
+
+
 const particleOptThree = {
 
     particles: {
@@ -20,7 +22,9 @@ const particleOptThree = {
 const Contact = () => {
   return (
     <div className="main-contact-div">
+
         <div className="main-contact-div-two">
+
           <div>
               <ContactForm  />
               <Particles className='under-nav-particles'
@@ -28,11 +32,9 @@ const Contact = () => {
 
                      />
          </div>
-        </div>
-
-        <div className="parent-contact-container">
           <MapContainer/>
         </div>
+
 
 
     </div>

@@ -8,7 +8,7 @@ const ContactForm = () => (
   }) => (
     <form onSubmit={submitForm}>
     <h1 style={{color:'black'}}> Contact Us </h1>
-     <h3>Please fill out this basic information and a team member will reach out immedietaly</h3>
+     <h3>Please fill out your contact information, and a team member will reach out shortly.</h3>
       <Text field="firstName" placeholder='First Name' />
 
       <Text field="lastName" placeholder='Last Name' />
