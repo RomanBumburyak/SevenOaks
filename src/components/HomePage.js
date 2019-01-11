@@ -77,7 +77,9 @@ SevenOaks has 20 years of experience in helping our clients succeed.</p>
 
      <div className='home-one'>
        <div className='home-one-div'>
-
+        <h2 style={{color:'white',textAlign:'center', paddingTop:'120px'}}>Back End Development</h2>
+        <h3 style={{color:'dodgerBlue',textAlign:'center', marginTop:'10px'}}>Java, C#, and Database admins</h3>
+        <h4 style={{color:'white',textAlign:'center', marginTop:'10px'}}>Commercial and Private development</h4>
 
       </div>
       <div className='home-one-div-two'>
@@ -85,6 +87,12 @@ SevenOaks has 20 years of experience in helping our clients succeed.</p>
 
 
      </div>
+     <div className='home-one-div-three'>
+       <h2 style={{color:'white'}}>Scalability & Support </h2>
+
+
+    </div>
+
 
     </div>
 
