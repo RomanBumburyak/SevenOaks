@@ -100,29 +100,34 @@
   background-size: cover;
   margin-left: 100px;
   color: white;
-
+    border: 2px solid red;
 
 }
 .home-one-div-three{
   /*border: 2px solid blue ;*/
-  height: 400px;
-  width: 500px;
+  height: 300px;
+  width: 450px;
   margin-top: 20px;
   background-image: url("./img/oracle-cloud-logo.png");
   background-repeat: no-repeat;
   background-size: contain;
   margin-left: 100px;
   color: white;
-
+  border: 2px solid red;
 
 }
 
-.Anchor-wat-center{
-  display: flex;
-flex-wrap: wrap;
+.home-one-div-four{
+  /*border: 2px solid blue ;*/
+  height: 300px;
+  width: 450px;
+  margin-top: 20px;
 
+  background-image: url("./img/oracle-cloud-logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 100px;
   color: white;
-  margin-top: 5px;
-  font-style: italic;
-  font-size: 1.4rem;
+    border: 2px solid red;
+
 }

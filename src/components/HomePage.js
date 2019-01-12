@@ -92,6 +92,12 @@ SevenOaks has 20 years of experience in helping our clients succeed.</p>
 
 
     </div>
+    <div className='home-one-div-four'>
+      <h2 style={{color:'white'}}>Personal attention to each project </h2>
+
+
+   </div>
+
 
 
     </div>

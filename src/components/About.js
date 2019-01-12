@@ -9,15 +9,17 @@ const About = () => {
         <div className="main-about-container">
 
               <div className="main-about-block-one">
-                <h2 className="block-title-tags">We create websites that target your customer-base.</h2>
+                <h1 className="block-title-tags">We create websites that target your customer-base.</h1>
+              </div>
+              <div className="main-about-container-two">
+                  <h2>Hello </h2>
               </div>
 
-            
-        </div>
-
-        <div className="main-about-container-two">
 
         </div>
+
+
+
 
 
 
