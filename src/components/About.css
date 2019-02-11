@@ -1,7 +1,7 @@
 .main-about-section{
 
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color:  #121217;
 }
 
@@ -18,7 +18,7 @@
 
   width: 100%;
   height: 500px;
-  background-color: #fafafa;
+  background-color: blue;
   display: flex;
   justify-content: center;
 
@@ -29,5 +29,5 @@
   height: 300px;
   width: 300px;
 
-  background-color: silver;
+  background-color: red;
 }

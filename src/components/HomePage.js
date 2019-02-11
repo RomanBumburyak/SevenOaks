@@ -40,6 +40,7 @@ class HomePage extends React.Component{
   render(){
  return(
 
+<div className='home-page-parent'>
 
 <div className='body-div'>
 
@@ -118,6 +119,8 @@ SevenOaks has 20 years of experience in helping our clients succeed.</p>
 
 
     </div>
+
+</div>
 
  )
 
