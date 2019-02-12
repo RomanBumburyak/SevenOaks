@@ -50,21 +50,25 @@ class HomePage extends React.Component{
            params= {particleOpt}
 
            />
+          
     </div>
 
 
+  
 
 
 
+<h1 className='main-page-text' > SevenOaks  </h1>
+<h2 style={{color:'white', fontSize:'1.3rem', display:'flex',justifyContent:'center',marginTop:'1.3rem'}}> It's currently {new Date().toLocaleTimeString()}.</h2>
+<h3 style={{color:'white', fontSize:'1.3rem', display:'flex',justifyContent:'center'}}> Technology professionals,
+SevenOaks has 20 years of experience in helping our clients succeed.</h3>
 
-<h1 className='main-page-text' > SevenOaks</h1>
 
 <Particles className='particle-style'
      params= {particleOptTwo}
 
      />
-<p className='main-page-paragraph'>Technology professionals,
-SevenOaks has 20 years of experience in helping our clients succeed.</p>
+
 
 
 
@@ -72,7 +76,7 @@ SevenOaks has 20 years of experience in helping our clients succeed.</p>
 
 
          <h1 className='center-particle-text'>Do you need help building a Software Solution? </h1>
-
+      
 
 
 
@@ -81,20 +85,22 @@ SevenOaks has 20 years of experience in helping our clients succeed.</p>
         <h2 style={{color:'white',textAlign:'center', paddingTop:'120px'}}>Back End Development</h2>
         <h3 style={{color:'dodgerBlue',textAlign:'center', marginTop:'10px'}}>Java, C#, and Database admins</h3>
         <h4 style={{color:'white',textAlign:'center', marginTop:'10px'}}>Commercial and Private development</h4>
-
+      
+        <button onClick={this.buttonClicked}> Button Test </button>
+        
       </div>
       <div className='home-one-div-two'>
         <h2>Mobile Development</h2>
-
+        
 
      </div>
      <div className='home-one-div-three'>
-       <h2 style={{color:'white'}}>Scalability & Support </h2>
-
+       <h2 style={{color:'white'}}>Scalability & Support  </h2>
+     
 
     </div>
     <div className='home-one-div-four'>
-      <h2 style={{color:'white'}}>Personal attention to each project </h2>
+      <h2 style={{color:'white', fontSize:'2rem'}}>Personal attention to each project </h2>
 
 
    </div>
