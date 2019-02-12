@@ -83,7 +83,7 @@ SevenOaks has 20 years of experience in helping our clients succeed.</h3>
      <div className='home-one'>
        <div className='home-one-div'>
         <h2 style={{color:'white',textAlign:'center', paddingTop:'120px'}}>Back End Development</h2>
-        <h3 style={{color:'dodgerBlue',textAlign:'center', marginTop:'10px'}}>Java, C#, and Database admins</h3>
+        <h1 style={{color:'rgba(0.25, 30, 10, 95)',textAlign:'center', marginTop:'10px'}}>Java, C#, and Database admins</h1>
         <h4 style={{color:'white',textAlign:'center', marginTop:'10px'}}>Commercial and Private development</h4>
       
         <button onClick={this.buttonClicked}> Button Test </button>
@@ -109,17 +109,6 @@ SevenOaks has 20 years of experience in helping our clients succeed.</h3>
 
     </div>
 
-    <div className='Anchor-wat-center'>
-
-        <div className='Anchor-wat-one'>
-
-        </div>
-
-
-
-
-
-    </div>
 
 
 
