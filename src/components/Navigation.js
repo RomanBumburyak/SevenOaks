@@ -9,10 +9,10 @@ const Navigation = () => {
   <div className="navigation-parent">
       <div className='header-anchors'>
      
-        <div className="head-anchor-tabs"><NavLink to="/"> Home</NavLink></div>
-        <div className="head-anchor-tabs"><NavLink to="/About">About</NavLink> </div>
-        <div className="head-anchor-tabs"><NavLink to="/Contact">Contact</NavLink> </div>
-        <div className="head-anchor-tabs"><NavLink to="/Directory">Directory</NavLink> </div>
+        <div  ><NavLink to="/"> Home</NavLink></div>
+        <div class="mainguy" ><NavLink to="/About">About</NavLink> Tell us </div>
+        <div ><NavLink to="/Contact">Contact</NavLink> </div>
+        <div ><NavLink to="/Directory">Dirctory</NavLink> </div>
       </div>
     </div>
   );
