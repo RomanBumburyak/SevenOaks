@@ -18,7 +18,7 @@ const ContactForm = () => (
 
       </RadioGroup>
       <h3>Please Explain your needs</h3>
-      <TextArea style={{height:'100px', width:'630px'}}field="bio" placeholder='Enter a description' />
+      <TextArea style={{height:'100px'}}field="bio" placeholder='Enter a description' />
       <br/>
       <h5>Privacy Agreement</h5>
       <Checkbox field="agreesToTerms"/>

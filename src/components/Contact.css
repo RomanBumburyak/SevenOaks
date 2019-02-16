@@ -1,15 +1,15 @@
 .main-contact-div{
-  min-height: 100vh;
-  min-width: 100vw;
+  height: 100vh;
+  
   background-color: #fafafa;
 
 }
 
 .main-contact-div-two{
 
-  min-height: 500px;
-  min-width: 100vw;
-  min-height: 100vh;
+  height: 500px;
+  
+  
     border: 2px solid red;
 }
 

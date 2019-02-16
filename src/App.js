@@ -5,6 +5,8 @@ import HomePage from "./components/HomePage";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Navigation from "./components/Navigation";
+import Directory from "./components/Directory";
+
 import Footer from "./components/Footer";
 
 
@@ -22,6 +24,7 @@ class App extends React.Component {
 
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact}  />
+            <Route path="/directory" component={Directory}  />
 
           </Switch>
 

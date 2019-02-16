@@ -5,6 +5,7 @@ import Particles from 'react-particles-js';
 
 
 
+
 const particleOpt = {
 
     particles: {
@@ -43,7 +44,7 @@ class HomePage extends React.Component{
 <div className='home-page-parent'>
 
 <div className='body-div'>
-
+    
     <div className='under-nav-menu'>
 
     <Particles className='under-nav-particles'
@@ -99,6 +100,7 @@ SevenOaks has 20 years of experience in helping our clients succeed.</h3>
      
 
     </div>
+    
     <div className='home-one-div-four'>
       <h2 style={{color:'white', fontSize:'2rem'}}>Personal attention to each project </h2>
 

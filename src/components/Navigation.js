@@ -12,6 +12,7 @@ const Navigation = () => {
         <div className="head-anchor-tabs"><NavLink to="/"> Home</NavLink></div>
         <div className="head-anchor-tabs"><NavLink to="/About">About</NavLink> </div>
         <div className="head-anchor-tabs"><NavLink to="/Contact">Contact</NavLink> </div>
+        <div className="head-anchor-tabs"><NavLink to="/Directory">Directory</NavLink> </div>
       </div>
     </div>
   );

@@ -1,8 +1,9 @@
 .navigation-parent{
   height: 55px;
-  width: 100%;
+  
   /*border: 4px solid black;*/
-  background-color: BLACK;
+  background-color: #333;
+
 
 }
 
@@ -11,15 +12,16 @@
 
   display: flex;
   justify-content: space-around;
-
+  height: 10px;
+  border: 3px solid #333;
+  
 }
 
 .head-anchor-tabs{
- border: 3px solid black;
+ 
  background-color: black;
- width: 120px;
- display: flex;
- justify-content: center;
+ color: purple;
+ 
  margin-top: 10px;
  font-size: 2.0rem;
  font-weight: bolder;

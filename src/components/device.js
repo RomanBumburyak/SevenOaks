@@ -5,7 +5,7 @@
 // Laptop - 1024px
 // Laptop L - 1440px
 // 4K - 2560px
-
+//Interpolate
 const size = {
   mobileS: "320px",
   mobileM: "375px",
