@@ -1,140 +1,23 @@
-.home-page-parent{
-  width: 100%;
+.home-page-main{
   
-  display:grid;
-}
-
-.Anchor-tab-nav{
-  display: flex;
-  justify-content: space-between;
-  font-style: italic;
-  font-size: 27px;
-  margin-top: 20px;
-  color: white;
-
-
-
-}
-
-.body-div{
-  background-color: red;
-  border: 2px solid blue;
-
-
-}
-
-@media (min-width: 600px) {
-   .body-div{
-     border: 2px solid red;
-   }
-}
-
-
-
-
-.under-nav-particles{
-  width: 100%;
-  height: 180px;
-
   background-color: black;
+  height: 100vh;
+}
 
+.home-title-info{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.home-title{
+  font-size: 5rem;
+  color:black;
+  background-color: azure;
+}
+.under-nav-particles{
+  height: 180px;
+  background-color: black;
     background-size: contain;
     background-position: 50% 50%;;
-
-}
-
-.main-page-text{
-  display: flex;
-  justify-content: center;
-  color:white;
-  background-color: black;
-  font-size: 7.5rem;
-  height: 110px;
-  width: 100%;
-  margin-top: -20px;
-  font-family: 'Source Sans Pro', sans-serif;
-
-
-    /*box-shadow: rgba(0.25, 30, 10, 95) 0px 170px 0px;*/
-
-}
-
-
-
-.particle-style{
-  background-size: cover;
-  background-position: 50% 50%;
-  background-color:rgba(0.25, 30, 10, 95);
-  width: 100%;
-  height: 250px;
-  margin-top: -81px;
-}
-
-.center-particle-text{
-  color: silver;
-
-
-  display: flex;
-  justify-content: center;
-
-  font-size: 3rem;
-  margin-top: 50px;
-}
-.home-one{
-  display: block;
-  
- 
-
-  height: 100px;
-  width: 100%;
-
-  background-color:black;
-}
-
-.home-one-div{
-
-  height: 200px;
-  width: 100%;
-  background-color: #333;
-
-}
-
-.home-one-div-two{
-  /*border: 2px solid blue ;*/
-  height: 300px;
-
-
-  background-image: url("./img/iphonePngNew.png");
-  background-repeat: no-repeat;
-  background-size: cover;
- 
-  color: white;
-    border: 2px solid red;
-
-}
-.home-one-div-three{
-  /*border: 2px solid blue ;*/
-  height: 300px;
-  width: 100%;
-  margin-top: 20px;
-  background-image: url("./img/oracle-cloud-logo.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  
-  background-color: yellow;
-  border: 2px solid yellow;
-
-}
-
-.home-one-div-four{
-  /*border: 2px solid blue ;*/
-  height: 300px;
-  width: 100%;
-  margin-top: 20px;
-
-  background-color: #333;
-
-  color: white;
-    border: 2px solid red;
 
 }

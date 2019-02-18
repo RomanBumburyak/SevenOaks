@@ -7,12 +7,12 @@
 
 .about-header-text{
   font-size: 3rem;
-  color: #333;
-  height: 200px;
+  color: #fafafa;
+  height: 300px;
   /*border: 2px solid grey;*/
   text-align: center;
   margin-top: -1px;
-  background-color:  green;
+  background-color:#333;
 }
 
 .main-about-container{
@@ -28,6 +28,5 @@
 .main-about-container-two{
   /* height: 300px; */
   max-width: 300px;
-
   background-color: whitesmoke;
 }

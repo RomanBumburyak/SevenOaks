@@ -4,7 +4,9 @@ import "./About.css";
 const About = () => {
   return (
     <div className="main-about-section">
-      <h1 className="about-header-text">Our Business helping your Business Grow.</h1>
+      <h1 className="about-header-text">Our Business helping your Business Grow.
+        <h2>lORUM</h2>
+      </h1>
 
         <div className="main-about-container">
 
@@ -28,7 +30,7 @@ const About = () => {
   <div class="item">
     <i class="mail icon"></i>
     <div class="content">
-      <a href="mailto:jack@semantic-ui.com">jack@semantic-ui.com</a>
+      <a href="mailto:info@sevenoaks.com">info@sevenoaks.com</a>
     </div>
   </div>
   <div class="item">
