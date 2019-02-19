@@ -1,7 +1,7 @@
 
 
 // const sgMail = require('@sendgrid/mail');
-// sgMail.setApiKey(process.env.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
+// sgMail.setApiKey(process.env.
 //   );
 // const msg = {
 //   to: 'romanbumburyak@gmail.com',
@@ -17,6 +17,7 @@ import { Form, Text, Radio, RadioGroup, TextArea, Checkbox } from 'react-form';
 
 
 const ContactForm = () => (
+  
   <Form render={({
     submitForm
   }) => (

@@ -1,0 +1,21 @@
+.directory-parent-main{
+    height: 100vh;
+    background-color: black;
+}
+
+.directory-page-style{
+height: 600px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.directory-page-flex{
+    height: 300px;
+    background-color: white;
+    /* width: 50%; */
+}
+.directory-page-flex-two{
+    height: 300px;
+    background-color: silver;
+}

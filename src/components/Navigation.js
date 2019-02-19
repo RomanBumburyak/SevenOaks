@@ -11,8 +11,10 @@ const Navigation = () => {
      
         <div  ><NavLink style={{color:'black'}} to="/"> Home</NavLink></div>
         <div  ><NavLink style={{color:'black'}} to="/About">About</NavLink> </div>
+        <div  ><NavLink style={{color:'black'}} to="/Services">Services</NavLink> </div>
         <div  ><NavLink style={{color:'black'}} to="/Contact">Contact</NavLink> </div>
         <div  ><NavLink style={{color:'black'}} to="/Directory">Dirctory</NavLink> </div>
+
       </div>
     </div>
   );
