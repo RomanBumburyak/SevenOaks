@@ -12,8 +12,6 @@ const particleOpt = {
         }
       }
     }
-
-
 }
 const particleOptTwo = {
 
@@ -26,8 +24,6 @@ const particleOptTwo = {
         }
       }
     }
-
-
 }
 
 class HomePage extends React.Component{
@@ -38,7 +34,7 @@ class HomePage extends React.Component{
                params= {particleOpt}
            />
           <div className='home-title-info'>
-              <h1 className='home-title'> Seven Oaks Software Development</h1>
+              <h1 className='home-title'> 7</h1>
           </div>
           <Particles className='under-nav-particles'
                params= {particleOpt}

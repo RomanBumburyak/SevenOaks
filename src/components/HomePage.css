@@ -11,8 +11,11 @@
 }
 .home-title{
   font-size: 5rem;
-  color:black;
-  background-color: azure;
+  
+  opacity: 0.5;
+    margin-top: -67px;
+    border: 5px solid;
+    color: gold;
 }
 .under-nav-particles{
   height: 180px;
