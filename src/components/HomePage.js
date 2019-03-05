@@ -13,18 +13,7 @@ const particleOpt = {
       }
     }
 }
-const particleOptTwo = {
 
-    particles: {
-      number: {
-        value: 150,
-        density:{
-          enable: true,
-          value_area:500,
-        }
-      }
-    }
-}
 
 class HomePage extends React.Component{
    render(){
@@ -34,12 +23,13 @@ class HomePage extends React.Component{
                params= {particleOpt}
            />
           <div className='home-title-info'>
-              <h1 className='home-title'> 7</h1>
-          </div>
-          <Particles className='under-nav-particles'
-               params= {particleOpt}
-           />
+              <div className='home-title'> 7</div>
+              <h2>We Create Software and manage your digital assets.</h2>
 
+             
+
+              
+          </div>
 
 
 

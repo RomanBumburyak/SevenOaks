@@ -1,16 +1,20 @@
 .services-page-main{
-    height: 1000px;
+    height: 100vh;
     background: #fafafa;
+    
 
 }
 
 .services-block-main{
     background-color: #333;
-    height: 250px;
+    height: 1250px;
+    
 }
 
 .services-list-main{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    flex-direction: column;
     flex-wrap: wrap;
+    height: 250px;
+    background-color: azure;
 }

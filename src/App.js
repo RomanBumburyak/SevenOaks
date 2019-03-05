@@ -25,17 +25,12 @@ class App extends React.Component {
           <Navigation />
           <Switch>
             <Route path="/" component={HomePage} exact />
-
             <Route path="/about" component={About} />
             <Route path="/services" component={Services}  />
             <Route path="/contact" component={Contact}  />
             <Route path="/directory" component={Directory}  />
 
           </Switch>
-
-         
-
-
         </div>
   
       </BrowserRouter>

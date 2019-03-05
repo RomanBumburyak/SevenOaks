@@ -10,17 +10,23 @@ class Services extends React.Component{
           
         <div className='services-block-main'>
             <h1> Services </h1>
-            <ul className='services-list-main'>
-                <li > Websites</li>
-                <li> Landing Pages</li>
-                <li> Mobile Applications</li>
-                <li> SE0 Marketing</li>
-                <li> Software Consultation</li>
-                <li>  Logo & Graphics Design</li>
+            <div className='services-list-main'>
+                <div>
+
+                </div>
+                <div>
+
+                </div>
+                <div>
+
+                </div>
+                <div>
+
+                </div>
                 
-                <li> User experience and Interface</li>
                 
-            </ul>
+                
+            </div>
         
         </div>
  
