@@ -32,7 +32,7 @@
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "react-router-hash-history": "^0.2.3",
-    "react-scripts": "2.1.2",
+    "react-scripts": "^2.1.5",
     "reactstrap": "^7.0.2",
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0",

@@ -1,6 +1,5 @@
 // Selectors are used to retrieve data from the state tree
 
-
 export function getFormView(state) {
     return state.form.view.data;
 }

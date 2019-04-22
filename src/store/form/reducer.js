@@ -1,7 +1,6 @@
 import {combineReducers } from 'redux';
 import * as constants from './constants';
 
-
 const initialState = {
     view: {
         status: null,
@@ -18,7 +17,6 @@ const initialState = {
     }
 };
 
-
 function viewReducer(state = initialState.view, action){
     switch (action.type) {
         case constants.EDIT_FORM_SUCCESS:
@@ -31,7 +29,6 @@ function viewReducer(state = initialState.view, action){
         return state;
     }
 }
-
 
 function editReducer(state = initialState.edit, action) {
     switch (action.type) {

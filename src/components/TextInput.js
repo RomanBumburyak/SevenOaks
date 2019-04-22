@@ -8,6 +8,9 @@ const TextInput = ({handleChange, title, value}) => (
             <br/>
             {title}
             <input type="text" value={value} onChange={(event) => handleChange(event.target.value)}/>
+            <form>
+                
+            </form>
             <br/>
     </div>
 

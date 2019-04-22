@@ -1,40 +1,41 @@
 import React from "react";
 import "./HomePage.css";
-import Particles from 'react-particles-js';
 
-const particleOpt = {
-    particles: {
-      number: {
-        value: 160,
-        density:{
-          enable: true,
-          value_area:500,
-        }
-      }
-    }
-}
+
+
+
+
 
 
 class HomePage extends React.Component{
    render(){
     return(
       <div className='home-page-main' >
-         <Particles className='under-nav-particles'
-               params= {particleOpt}
-           />
+         
           <div className='home-title-info'>
-              <div className='home-title'> 7</div>
+              
               <h2>We Create Software and manage your digital assets.</h2>
-
+             
              
 
               
+          </div> 
+
+          <div className="div-one-parent">
+          <h2> Seven Oaks Software Development</h2>
+          
           </div>
+             
 
+             <div className="div-two-child">
+              <h2>Intro Begin</h2>
+              
+             </div>
 
-
-
-
+             <div className="div-three-child">
+              <h2>Hey 3</h2>
+             </div>
+             
 
       </div>
    );

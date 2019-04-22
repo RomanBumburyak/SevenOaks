@@ -1,6 +1,6 @@
 import {connect} from 'redux';
-import ContactForm from './components/ContactForm';
-import { getFormView, getFormEdit, getHasChanged } from "../../store/form/selectors";
+import ContactForm from './ContactForm';
+import { getFormView, getFormEdit, getHasChanged } from "../store/form/selectors";
 import { setupForm, saveForm } from '../../store/form/thunk';
 import { addChange } from '../../store/form/actions';
 

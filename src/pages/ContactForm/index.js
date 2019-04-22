@@ -94,5 +94,3 @@ ContactForm.defaultProps = {
 
 
 export default ContactForm;
-
-

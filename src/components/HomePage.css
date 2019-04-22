@@ -1,29 +1,39 @@
 .home-page-main{
   
-  background-image: linear-gradient(to right, black, silver);
-  height: 100vh;
+  background-color:black;
+  margin: auto;
+  /* height: 100%; */
+  /* align-items: center; */
  
 }
 
-.home-title-info{
+
+
+
+
+.div-one-parent{
+  color: black;
+  height: 100vh;
+  /* background-color: #fafafa;  */
+  background-image: url("./img/teslaImagehd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
   display: flex;
   justify-content: center;
-  color: white;
-  margin-top: -65px;
-}
-.home-title{
-  font-size: 5rem;
-  
-  opacity: 0.5;
-   
-    border: 3px solid silver;
-    color: gold;
-}
-.under-nav-particles{
-  height: 180px;
-  margin-top: 65px;
-  background-image: linear-gradient(to right, black, silver);
-    background-size: contain;
-    background-position: 50% 50%;;
 
+}
+
+.div-two-child{
+  color: black;
+  height: 100vh;
+  background-color: #333; 
+  margin-top: 50px;
+}
+
+.div-three-child{
+  color: black;
+  height: 100vh;
+  background-color: red; 
+  margin-top: 150px;
 }
