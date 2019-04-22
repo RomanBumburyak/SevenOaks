@@ -9,11 +9,11 @@ const Navigation = () => {
   <div className="navigation-parent">
       <div className='header-anchors'>
      
-        <div  ><NavLink style={{color:'white'}} to="/"> Home</NavLink></div>
-        <div  ><NavLink style={{color:'white'}} to="/About">About</NavLink> </div>
-        <div  ><NavLink style={{color:'white'}} to="/Services">Services</NavLink> </div>
-        <div  ><NavLink style={{color:'white'}} to="/Contact">Contact</NavLink> </div>
-        <div  ><NavLink style={{color:'white'}} to="/Directory">Dirctory</NavLink> </div>
+        <div  ><NavLink  to="/"> Home</NavLink></div>
+        <div  ><NavLink  to="/About">About</NavLink> </div>
+        <div  ><NavLink  to="/Services">Services</NavLink> </div>
+        <div  ><NavLink  to="/Contact">Contact</NavLink> </div>
+        <div  ><NavLink  to="/Directory">Dirctory</NavLink> </div>
 
       </div>
     </div>

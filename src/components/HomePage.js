@@ -12,14 +12,7 @@ class HomePage extends React.Component{
     return(
       <div className='home-page-main' >
          
-          <div className='home-title-info'>
-              
-              <h2>We Create Software and manage your digital assets.</h2>
-             
-             
-
-              
-          </div> 
+          
 
           <div className="div-one-parent">
           <h2> Seven Oaks Software Development</h2>
@@ -28,7 +21,7 @@ class HomePage extends React.Component{
              
 
              <div className="div-two-child">
-              <h2>Intro Begin</h2>
+              <h2>Quick and scalable</h2>
               
              </div>
 

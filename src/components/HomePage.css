@@ -1,6 +1,6 @@
 .home-page-main{
   
-  background-color:black;
+  background-color:#333;
   margin: auto;
   /* height: 100%; */
   /* align-items: center; */
@@ -28,12 +28,22 @@
   color: black;
   height: 100vh;
   background-color: #333; 
-  margin-top: 50px;
+  background-image: url("./img/teslatwo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
 }
 
 .div-three-child{
   color: black;
   height: 100vh;
-  background-color: red; 
-  margin-top: 150px;
+  background-color: #333; 
+  background-image: url("./img/teslamtn.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
 }
