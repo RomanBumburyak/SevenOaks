@@ -14,8 +14,9 @@
 .div-one-parent{
   color: black;
   height: 100vh;
+  width: 100vw;
   /* background-color: #fafafa;  */
-  background-image: url("./img/teslaImagehd.jpg");
+  background-image: url("./img/sevenOaksOne.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -28,7 +29,7 @@
   color: black;
   height: 100vh;
   background-color: #333; 
-  background-image: url("./img/teslatwo.jpg");
+  background-image: url("./img/macBack.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -40,7 +41,7 @@
   color: black;
   height: 100vh;
   background-color: #333; 
-  background-image: url("./img/teslamtn.jpg");
+  background-image: url("./img/techBlog.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 

@@ -15,10 +15,12 @@ class HomePage extends React.Component{
           
 
           <div className="div-one-parent">
+          
           <h2> Seven Oaks Software Development</h2>
+
           
           </div>
-             
+          
 
              <div className="div-two-child">
               <h2>Quick and scalable</h2>

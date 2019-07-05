@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Contact.css";
-import ContactForm from './ContactForm';
+// import ContactForm from './ContactForm';
 import MapContainer from './MapContainer';
 import Particles from 'react-particles-js';
 
