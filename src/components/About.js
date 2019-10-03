@@ -5,7 +5,6 @@ const About = () => {
   return (
     <div className="main-about-section">
       <h1 className="about-header-text">Our Business helping your Business Grow.
-        <h2>Alpharetta,GA.</h2>
       </h1>
 
         <div className="main-about-container">

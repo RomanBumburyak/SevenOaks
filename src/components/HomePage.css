@@ -1,10 +1,9 @@
 .home-page-main{
-  
-  background-color:#333;
-  margin: auto;
-  /* height: 100%; */
-  /* align-items: center; */
- 
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  /* height: 100vh;
+  width: 100vw; */
 }
 
 
@@ -12,39 +11,17 @@
 
 
 .div-one-parent{
-  color: black;
+  
+  /* width: 100vw; */
+  /* background: linear-gradient(#393e45, #9198e5); */
   height: 100vh;
   width: 100vw;
-  /* background-color: #fafafa;  */
-  background-image: url("./img/sevenOaksOne.jpg");
+  background-image: url('./img/americanintheussr.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
-
-  display: flex;
-  justify-content: center;
-
+  background-size: contain;
+  opacity: 0.5;
 }
 
-.div-two-child{
-  color: black;
-  height: 100vh;
-  background-color: #333; 
-  background-image: url("./img/macBack.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 
-  display: flex;
-  justify-content: center;
-}
 
-.div-three-child{
-  color: black;
-  height: 100vh;
-  background-color: #333; 
-  background-image: url("./img/techBlog.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 
-  display: flex;
-  justify-content: center;
-}

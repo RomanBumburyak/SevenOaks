@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomePage.css";
-
+import MediaQuery from 'react-responsive';
 
 
 
@@ -13,23 +13,22 @@ class HomePage extends React.Component{
       <div className='home-page-main' >
          
           
-
+         {/* <MediaQuery minDeviceWidth={1224}>
+         </MediaQuery>  */}
+          
           <div className="div-one-parent">
           
-          <h2> Seven Oaks Software Development</h2>
 
           
           </div>
+             
           
 
              <div className="div-two-child">
-              <h2>Quick and scalable</h2>
               
              </div>
 
-             <div className="div-three-child">
-              <h2>Hey 3</h2>
-             </div>
+            
              
 
       </div>

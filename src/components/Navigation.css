@@ -1,22 +1,38 @@
 .navigation-parent{
+  width: 100vw;
+  height: 130px;
+  display: flex-start;
+  justify-content: space-between;  
+  flex-direction: row;
+  background-color: lightslategray;
+
+  margin-bottom: 2px;
 }
 
+/* .logo-location{
+  height: 25vh;
+  width: 25vw;
+  background-image: url('./img/bannerLogo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+} */
 
 .header-anchors{
-  display: flex;
-  justify-content: space-around;  
-  background-color: black;
   
+  background-color: black;
+  width: 100vw;
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
  /* border: 3px solid #333; */
-  padding: 20px;
+  /* padding: 20px; */
  /* margin-top: 10px; */
  font-size: 1rem;
  font-weight: bolder;
 }
 
-.header-anchors:hover{
-  background-color: rgb(192, 46, 46);
-}
 
 
 
