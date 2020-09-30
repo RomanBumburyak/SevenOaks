@@ -11,6 +11,7 @@ const Navigation = () => {
     
           <div className='header-anchors'>
               <div  ><NavLink  to="/"> Home</NavLink></div>
+              <div  ><NavLink  to="/ExMenu">ExMenu</NavLink> </div>
               <div  ><NavLink  to="/About">About</NavLink> </div>
               <div  ><NavLink  to="/Services">Services</NavLink> </div>
               <div  ><NavLink  to="/Contact">Contact</NavLink> </div>

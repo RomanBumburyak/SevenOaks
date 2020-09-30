@@ -11,22 +11,10 @@ class HomePage extends React.Component{
    render(){
     return(
       <div className='home-page-main' >
-         
+           <div className="div-one-parent"></div>
           
-         {/* <MediaQuery minDeviceWidth={1224}>
-         </MediaQuery>  */}
           
-          <div className="div-one-parent">
-          
-
-          
-          </div>
-             
-          
-
-             <div className="div-two-child">
-              
-             </div>
+       
 
             
              
