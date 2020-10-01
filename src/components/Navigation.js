@@ -9,15 +9,15 @@ const Navigation = () => {
   <div className="navigation-parent">
 
     
-          <div className='header-anchors'>
-              <div  ><NavLink  to="/"> Home</NavLink></div>
-              <div  ><NavLink  to="/ExMenu">ExMenu</NavLink> </div>
-              <div  ><NavLink  to="/About">About</NavLink> </div>
-              <div  ><NavLink  to="/Services">Services</NavLink> </div>
-              <div  ><NavLink  to="/Contact">Contact</NavLink> </div>
-              <div  ><NavLink  to="/Directory">Dirctory</NavLink> </div>
-              <div className="logo-location"></div>
-           </div>
+          <ul className='header-anchors'>
+              <li  ><NavLink  to="/"> Home</NavLink></li>
+              <li  ><NavLink  to="/ExMenu">ExMenu</NavLink> </li>
+              <li  ><NavLink  to="/About">About</NavLink> </li>
+              <li  ><NavLink  to="/Services">Services</NavLink> </li>
+              <li  ><NavLink  to="/Contact">Contact</NavLink> </li>
+              <li  ><NavLink  to="/Directory">Dirctory</NavLink> </li>
+              <li className="logo-location"></li>
+           </ul>
       <div className='flexed'>
 
       </div>
